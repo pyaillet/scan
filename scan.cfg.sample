@@ -1,0 +1,12 @@
+[scanner]
+device = your_device 			# obtained from scanimage -L
+scanimage = /usr/bin/scanimage 		# scanimage command path
+pnmtojpeg = /usr/bin/pnmtojpeg  	# pnmtojpeg path
+
+[mail]
+smtp = smtp.free.fr			# your smtp server
+from = charlie.chaplin@foo.bar		# from mail address
+to1 = charlie.chaplin@foo.bar		# to (first button)
+to2 = charlie.chaplin@foo.bar		# to (second button)
+subject = Your scanned image		# email subject
+preamble = Your scanned image		# mail text
