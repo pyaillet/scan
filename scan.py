@@ -49,7 +49,7 @@ def scan(config, file):
 def scan_and_send_to1(channel):
 	scan_and_send('to1')
 
-def scan_and_send_to2(channe):
+def scan_and_send_to2(channel):
 	scan_and_send('to2')
 
 def scan_and_send(to):
