@@ -74,10 +74,10 @@ def scan_and_send(to):
   try:
     scan(config, tmpfile)
     send_email(config, tmpfile, to)
-    finally:
-      print "Cleaning up..."
-      shutil.rmtree(tmpdir)
-      print "Done"
+  finally:
+    print "Cleaning up..."
+    shutil.rmtree(tmpdir)
+    print "Done"
     
 holder = Holder()
 
